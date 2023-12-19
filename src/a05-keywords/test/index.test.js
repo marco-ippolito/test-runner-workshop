@@ -7,7 +7,7 @@ test("testing product", () => {
 	assert.strictEqual(product([1, 2, 3]), 6, "product is not ready yet");
 });
 
-// we only want to execute this specific test
+// we only want to execute ONLY this specific test
 test("testing sum", () => {
 	assert.strictEqual(sum([1, 2, 27]), 30, "sum([1, 2, 27]) should equal 30");
 });
