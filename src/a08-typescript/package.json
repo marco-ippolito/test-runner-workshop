@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "node --test ./test/*.ts",
-    "solution": "node --import tsx --test ./test/*.ts"
+    "solution": "node --import=tsx --test ./test/*.ts"
   },
   "keywords": [],
   "author": "",
