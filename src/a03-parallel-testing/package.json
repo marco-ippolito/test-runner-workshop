@@ -8,7 +8,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --test --test-concurrency=1",
+    "solution": "node --test --test-concurrency=10"
   },
   "keywords": [],
   "author": "",
