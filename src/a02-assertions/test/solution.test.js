@@ -29,6 +29,6 @@ test("sumAsync", async () => {
 	);
 });
 
-// extra assertions not coveredc by example
-assert.match(PLACEHOLDER, /PLACEHOLDER/);
+// extra assertions not covered by example
+assert.match("PLACEHOLDER", /PLACEHOLDER/);
 assert.doesNotMatch("foo", /PLACEHOLDER/);

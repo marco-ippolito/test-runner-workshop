@@ -8,8 +8,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "node --test ./test/index.test.js",
-    "solution": "node --test ./test/solution.test.js"
+    "test": "node --test"
   },
   "keywords": [],
   "author": "",
