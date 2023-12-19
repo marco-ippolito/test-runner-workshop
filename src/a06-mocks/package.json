@@ -8,7 +8,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --test ./test/index.test.js",
+    "solution": "node --test --test-only ./test/solution.test.js"
   },
   "keywords": [],
   "author": "",
