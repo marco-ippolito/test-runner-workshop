@@ -5,7 +5,8 @@
   "main": "./src/index.js",
   "type": "module",
   "scripts": {
-    "test": "node --test"
+    "test": "node --test",
+    "solution": "node --test --test-name-pattern=product ./test-folder-custom/*.spec.js"
   },
   "keywords": [],
   "author": "",
